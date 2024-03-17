@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    /* overflow: hidden; */
+}
+
+.navbar{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(10px);
+}
+
+.btn-local {
+    display: flex; /* แสดงเป็นแถวเดียวกัน */
+    align-items: center; /* จัดวางองค์ปุ่มให้อยู่กลางแนวตั้ง */
+}
+
+.btn-local button{
+    height: 30px;
+    border-radius: 7px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: #fff01f;
+    border: none;
+}
+
+.logo img{
+    display: flex;
+    margin-left: 20px;
+    width: 130px;
+    
+}
+
+.logout img{
+    display: flex;
+    margin-right: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.bo-dy{
+    background-image: url('https://i.pinimg.com/originals/c2/63/d2/c263d2184f802a05ef422346a937ed1a.gif');
+    background-size: cover; /* ปรับขนาดภาพพื้นหลังให้เต็มขนาดของคอนเทนเนอร์ */
+    background-position: center; /* ยืดภาพพื้นหลังจากส่วนกลาง */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cont{
+    /* margin-top: 90px; */
+    width: 350px;
+    height: auto;
+    padding: 10px 0 10px 0;
+    background-color: rgba(31, 31, 31, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.d1{
+    /* background-color: aliceblue; */
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lnm-u2 img{
+    /* padding: 10px; */
+    width: 300px;
+    height: 400px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.d2{
+    margin-top: 5px ;
+    color: white;
+}
+
+.d2 img{
+    margin-top: 10px;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: #000000; */
+    width: 300px;
+    height: 100px;
+    border-radius: 7px;
+    object-fit: cover;
+}

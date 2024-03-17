@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+}
+
+.navbarU {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbarU div {
+    cursor: pointer;
+}
+
+.L{
+    background-image: url('https://i.pinimg.com/originals/c2/63/d2/c263d2184f802a05ef422346a937ed1a.gif');
+    background-size: cover; /* ปรับขนาดภาพพื้นหลังให้เต็มขนาดของคอนเทนเนอร์ */
+    background-position: center; /* ยืดภาพพื้นหลังจากส่วนกลาง */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(31, 31, 31, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    
+}
+
+
+.conL{
+    width: 600px;
+    height: auto;
+    background-color: rgba(31, 31, 31, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; /* เปลี่ยนเป็น column เพื่อให้เรียงลงมา */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lnm{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    /* background-color: aliceblue; */
+    color: rgb(255, 255, 255);
+}
+
+
+.l-img{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.l-img img{
+    border-radius: 7px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}

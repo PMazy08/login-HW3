@@ -1,0 +1,65 @@
+*{
+    margin: 0px;    
+  }
+  
+  
+  .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.pinimg.com/originals/c2/63/d2/c263d2184f802a05ef422346a937ed1a.gif');
+    background-size: cover; /* ปรับขนาดภาพพื้นหลังให้เต็มขนาดของคอนเทนเนอร์ */
+    background-position: center; /* ยืดภาพพื้นหลังจากส่วนกลาง */
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .boxLog{
+    width: 390px;
+    height: auto;
+    border-radius: 7px;
+    background-color: rgba(31, 31, 31, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(10px);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .input-box input{
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid #000; /* เปลี่ยนเป็น solid 1px */
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #000;
+    color: white;
+  }
+  
+  .button-box button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 40px;
+    background-color: #fff01f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
